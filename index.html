@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfólio de Mateus Ernandes, desenvolvedor front-end em formação, focado em HTML, CSS, responsividade e projetos modernos."
+    />
+
+    <meta
+      name="keywords"
+      content="portfólio, Mateus Ernandes, desenvolvedor front-end, html, css, responsividade, projetos, habilidades, contato"
+    />
+
+    <meta name="author" content="Mateus Ernandes" />
+
+    <title>Mateus Ernandes | Portfólio Front-end</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar" aria-label="Navegação principal">
+        <a class="navbar__logo" href="#home" aria-label="Voltar para o início">
+          ◈
+        </a>
+
+        <ul class="navbar__menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+
+          <li>
+            <a href="#habilidades">Habilidades</a>
+          </li>
+
+          <li>
+            <a href="#sobre">Sobre</a>
+          </li>
+
+          <li>
+            <a href="#projetos">Projetos</a>
+          </li>
+
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero__overlay">
+          <div class="hero__content">
+            <h1 class="hero__name">Mateus Ernandes</h1>
+
+            <article class="hero__card">
+              <h2>Desenvolvedor Front-end em formação</h2>
+
+              <p>
+                Estou construindo projetos modernos com HTML, CSS e
+                responsividade, transformando estudos em interfaces reais para
+                evoluir como desenvolvedor.
+              </p>
+
+              <a class="hero__button" href="#contato"> Entrar em contato </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-skills">
+        <div class="about-skills__container">
+          <section class="about" id="sobre" aria-labelledby="about-title">
+            <h2 id="about-title">Sobre Mim</h2>
+
+            <p>
+              Sou um desenvolvedor front-end em formação, focado em aprender
+              HTML, CSS, responsividade e boas práticas para criar interfaces
+              modernas, organizadas e funcionais.
+            </p>
+
+            <p>
+              Atualmente estou construindo projetos práticos para fortalecer meu
+              portfólio, evoluir minha lógica de criação e transformar estudos
+              em páginas reais para a web.
+            </p>
+
+            <p>
+              Meu objetivo é me desenvolver como profissional de front-end,
+              criando projetos bem estruturados, com código limpo, visual
+              moderno e atenção aos detalhes em cada etapa do desenvolvimento.
+            </p>
+
+            <div class="social">
+              <a
+                class="social__link social__link--github"
+                href="#"
+                aria-label="Acessar GitHub de Mateus Ernandes"
+              >
+                GH
+              </a>
+
+              <a
+                class="social__link social__link--linkedin"
+                href="#"
+                aria-label="Acessar LinkedIn de Mateus Ernandes"
+              >
+                in
+              </a>
+
+              <a
+                class="social__link social__link--instagram"
+                href="#"
+                aria-label="Acessar Instagram de Mateus Ernandes"
+              >
+                IG
+              </a>
+            </div>
+          </section>
+
+          <section
+            class="skills"
+            id="habilidades"
+            aria-labelledby="skills-title"
+          >
+            <h2 id="skills-title">Habilidades</h2>
+
+            <ul class="skills__list">
+              <li class="skill">
+                <span class="skill__icon skill__icon--html" aria-hidden="true">
+                  5
+                </span>
+
+                <div class="skill__content">
+                  <strong> HTML </strong>
+
+                  <div class="skill__bar" aria-label="Nível de HTML: 75%">
+                    <span style="width: 75%"></span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="skill">
+                <span class="skill__icon skill__icon--css" aria-hidden="true">
+                  3
+                </span>
+
+                <div class="skill__content">
+                  <strong> CSS </strong>
+
+                  <div class="skill__bar" aria-label="Nível de CSS: 65%">
+                    <span style="width: 65%"></span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="skill">
+                <span class="skill__icon skill__icon--js" aria-hidden="true">
+                  JS
+                </span>
+
+                <div class="skill__content">
+                  <strong> JavaScript em estudo </strong>
+
+                  <div class="skill__bar" aria-label="Nível de JavaScript: 30%">
+                    <span style="width: 0%"></span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="skill">
+                <span class="skill__icon skill__icon--git" aria-hidden="true">
+                  ◆
+                </span>
+
+                <div class="skill__content">
+                  <strong> Git & GitHub </strong>
+
+                  <div
+                    class="skill__bar"
+                    aria-label="Nível de Git e GitHub: 40%"
+                  >
+                    <span style="width: 40%"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </section>
+
+      <section class="projects" id="projetos" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projetos</h2>
+
+        <div class="projects__grid">
+          <article class="project-card">
+            <img
+              src="./assets/img/img1.jpg"
+              alt="Imagem do projeto Página de Login"
+            />
+
+            <h3>Página de Login</h3>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="./assets/img/image.png"
+              alt="Imagem do projeto To-do List"
+            />
+
+            <h3>To-do List</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contato" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contato</h2>
+
+        <form class="contact__form" action="#" method="post">
+          <p class="contact__label">Envie uma mensagem:</p>
+
+          <div class="contact__row">
+            <div class="contact__group">
+              <label for="name"> Nome </label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+
+            <div class="contact__group">
+              <label for="phone"> Número do celular </label>
+
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(00) 00000-0000"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="contact__group">
+            <label for="email"> E-mail </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seuemail@exemplo.com"
+              required
+            />
+          </div>
+
+          <div class="contact__group">
+            <label for="message"> Mensagem </label>
+
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Escreva sua mensagem..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
